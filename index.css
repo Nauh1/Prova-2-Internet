@@ -1,0 +1,147 @@
+body,
+html {
+    background-color: #ebe9e9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.painel {
+    margin: 40px auto;
+    padding: 100px;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cabecario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.caixas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.caixa-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-input label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.caixa-input input {
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.caixa-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-in label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.caixa-in input {
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.botoes {
+    display: flex;
+    gap: 400px;
+    margin-top: 15px;
+}
+
+.botoes button {
+    flex: 1;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#save{
+    flex: 1;
+}
+
+#listar{
+    flex: 1;
+}
+
+.lateral-direita {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    border-left: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    z-index: 999;
+}
+
+
+.caixa-busca {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-busca label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.caixa-busca input {
+    height: 30px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.caixa-saida ul{
+    list-style: none;
+    padding-right: 4;
+}
+
+#bttn{
+    background-color: red;
+    height: 40px;
+    width: 90px;
+    margin: auto;
+}

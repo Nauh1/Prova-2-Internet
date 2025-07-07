@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="painel">
+        <div class="cabecario">
+            <img src="ifpr.png" alt="Logo" class="logo">
+            <h1>Cadastro de Alunos</h1>
+        </div>
+
+        <form class="caixas">
+            <div class="caixa-in">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            
+            <div class="caixa-input">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email">
+            </div>
+
+            <div class="caixa-input">
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" name="cep">
+            </div>
+            <div class="caixa-input">
+                <label for="logradouro">Logradouro</label>
+                <input type="text" id="logradouro" name="logradouro" readonly>
+            </div>
+            <div class="caixa-input">
+                <label for="num">Número</label>
+                <input type="text" id="num" name="num">
+            </div>
+            <div class="caixa-input">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" name="bairro" readonly>
+            </div>
+            <div class="caixa-input">
+                <label for="localidade">Cidade</label>
+                <input type="text" id="localidade" name="localidade" readonly>
+            </div>
+            <div class="caixa-input">
+                <label for="uf">UF</label>
+                <input type="text" id="uf" name="uf" readonly>
+            </div>
+        </form>
+        
+        <div class="botoes">
+            <button id="cadastrar">Cadastrar</button>
+        </div>
+
+        <div class="caixa-busca">
+            <input type="text" id="busca" name="busca" placeholder="Buscar úsuario por nome">
+        </div>
+
+        <div class="caixa-saida">
+            <ul id="saida"></ul>
+        </div>
+
+    </div>
+    <script src="confg.js"></script>
+</body>
+
+</html>
